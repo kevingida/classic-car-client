@@ -61,14 +61,13 @@ export const Navbar = () => {
   return (
     <header className={Style.navbar} style={{ backgroundColor: `${colour}` }}>
       <Link href="/">
-        {/* <Image
+        <Image
           src="/Logo.svg"
           alt="Classic car logo"
-          width={600}
-          height={400}
+          width={120}
+          height={80}
           className={Style.navbar__logo}
-        /> */}
-        <h3>LOGO</h3>
+        />
       </Link>
       <nav
         className={`${active ? Style.navbar__responsive : ""} 

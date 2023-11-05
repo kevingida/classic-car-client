@@ -11,7 +11,7 @@ type props = {
 function Hero({ heading, message }: props) {
   return (
     <section className={Style.hero}>
-      <h2 className={Style.hero__title}>{heading} </h2>
+      <h1 className={Style.hero__title}>{heading} </h1>
       <p className={Style.hero__slogan}>{message}</p>
       <Link className={Style.hero__btn} href="/cars/for-sale">
         Our Collection
