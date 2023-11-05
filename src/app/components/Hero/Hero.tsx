@@ -1,7 +1,6 @@
 import React from "react";
 import Style from "./Hero.module.css";
 import Link from "next/link";
-import { type } from "os";
 
 type props = {
   heading: String;
