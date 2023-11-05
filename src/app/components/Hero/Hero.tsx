@@ -10,15 +10,13 @@ type props = {
 
 function Hero({ heading, message }: props) {
   return (
-    <div className={Style.container}>
-      <div className={Style.content}>
-        <h2>{heading} </h2>
-        <p>{message}</p>
-        <Link className={Style.button} href="/cars/for-sale">
-          Our Collection
-        </Link>
-      </div>
-    </div>
+    <section className={Style.hero}>
+      <h2 className={Style.hero__title}>{heading} </h2>
+      <p className={Style.hero__slogan}>{message}</p>
+      <Link className={Style.hero__btn} href="/cars/for-sale">
+        Our Collection
+      </Link>
+    </section>
   );
 }
 

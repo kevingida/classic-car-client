@@ -1,3 +1,4 @@
+import Category from "./components/Category/Category";
 import Hero from "./components/Hero/Hero";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         heading="CLASSIC CAR DEALER"
         message="Quality never goes out of style"
       />
+      <Category />
       <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quam
         nesciunt ea dolorum autem dolor numquam ducimus facere officiis neque

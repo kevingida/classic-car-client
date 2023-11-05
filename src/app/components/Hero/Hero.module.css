@@ -1,35 +1,31 @@
-.container {
+.hero {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
     margin-bottom: 2rem;
+    color: whitesmoke;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-image: url(https://images.unsplash.com/photo-1570043456760-8964ea52574c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
   }
   
-  .content {
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .content h2 {
+  .hero__title {
     font-size: 3rem;
     font-weight: 700;
-    margin: 0;
   }
-  .content p {
+
+  .hero__slogan {
     text-align: center;
     font-weight: 400;
-    margin: 0 0 2rem 0;
+    margin-bottom: 2rem;
   }
   
-  .button {
+  .hero__btn {
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background-color: transparent;
@@ -40,7 +36,7 @@
     transition: 0.3s;
   }
   
-  .button:hover {
+  .hero__btn:hover {
     background-color: rgba(88, 84, 84, 0.8);
     border: 2px solid transparent;
   }
