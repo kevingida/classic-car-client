@@ -1,5 +1,5 @@
 .navbar {
-    /* position: fixed; */
+    position: fixed;
 	display: flex;
 	justify-content: space-between;
 	height: 80px;
@@ -12,8 +12,6 @@
 	align-items: center;
     justify-content: end;
     width: 100%;
-    padding: 0;
-    background-color: black;
 }
 
 .navbar__list__item {
@@ -47,6 +45,7 @@
 		visibility: visible;
         display: block;
 		opacity: 1;
+        color: white;
 	}
 
 	.navbar__list {
@@ -60,7 +59,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: #000814e8;
 		transition: 1s;
 	}
 
@@ -72,10 +71,11 @@
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
-        color: white;
 	}
 
 	.navbar__list__item {
 		font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
 	}
 }

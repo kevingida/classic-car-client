@@ -59,9 +59,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <header
-      className={Style.navbar} /*style={{ backgroundColor: `${colour}` }}*/
-    >
+    <header className={Style.navbar} style={{ backgroundColor: `${colour}` }}>
       <Link href="/">
         {/* <Image
           src="/Logo.svg"
@@ -98,37 +96,4 @@ export const Navbar = () => {
       </button>
     </header>
   );
-
-  // return (
-  //   <nav className={navbar.navbar} /*style={{ backgroundColor: `${colour}` }}*/>
-  //     <div className={navbar.navbar__container}>
-  //       <h1 className={navbar.navbar__logo}>LOGO</h1>
-  //       <button
-  //         onClick={() => setActive(!active)}
-  //         className={navbar.navbar__btn}
-  //       >
-  //         <FaBars className={navbar.navbar__btn__menu} />
-  //       </button>
-  //       <div
-  //         className={`${navbar.nav__elements}  ${active && "active"}`}
-  //         style={active ? { display: "inline-block" } : { display: "none" }}
-  //       >
-  //         <ul>
-  //           {listLink.map((navigation) => (
-  //             <Link
-  //               key={navigation.id}
-  //               href={navigation.url}
-  //               className={navbar.navbar__list__item}
-  //             >
-  //               {navigation.title}
-  //             </Link>
-  //           ))}
-  //         </ul>
-  //       </div>
-  //     </div>
-  //   </nav>
-  // );
 };
-
-{
-}

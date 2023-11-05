@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { NextFont } from "next/dist/compiled/@next/font";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer/Footer";
 
 const poppins: NextFont = Poppins({
   weight: ["400", "700"],
