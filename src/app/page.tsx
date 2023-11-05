@@ -1,6 +1,6 @@
 import Category from "./components/Category/Category";
 import Hero from "./components/Hero/Hero";
-import History from "./components/History/History";
+import Story from "./components/Story/Story";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         message="Quality never goes out of style"
       />
       <Category />
-      <History
+      <Story
         heading1="SUPPLYING THE FINEST CLASSIC CAR"
         message="Classic Car Dealer is the longest standing and are specialists in the international sale of rare classiccars."
       />

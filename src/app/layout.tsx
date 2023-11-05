@@ -11,7 +11,7 @@ const poppins: NextFont = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Classic Car",
+  title: "Classic Car Dealer",
   description: "Sell beautiful classic cars",
 };
 
