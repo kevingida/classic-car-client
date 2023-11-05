@@ -35,7 +35,7 @@ export const Navbar = () => {
     },
     {
       id: 6,
-      title: "Contact",
+      title: "Contact Us",
       url: "/contact",
     },
   ];

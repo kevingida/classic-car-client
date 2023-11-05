@@ -1,5 +1,4 @@
 .hero {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +8,7 @@
     margin-bottom: 2rem;
     color: whitesmoke;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 80% 50%;
     background-size: cover;
     background-image: url(https://images.unsplash.com/photo-1570043456760-8964ea52574c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
   }
@@ -17,6 +16,7 @@
   .hero__title {
     font-size: 3rem;
     font-weight: 700;
+    text-align: center;
   }
 
   .hero__slogan {
@@ -29,9 +29,10 @@
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     border-radius: 5%;
     color: whitesmoke;
+    font-weight: 700;
     text-decoration: none;
     transition: 0.3s;
   }
