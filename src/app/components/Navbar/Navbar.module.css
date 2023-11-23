@@ -40,7 +40,7 @@
 
 
 
-@media only screen and (width<= 600px) {
+@media only screen and (width<= 780px) {
 	.navbar__btn {
 		visibility: visible;
         display: block;
